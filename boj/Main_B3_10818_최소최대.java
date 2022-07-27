@@ -12,23 +12,23 @@ public class Main_B3_10818_최소최대 {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int n = Integer.parseInt(st.nextToken());
 		
-		int[] input = new int[n];
+		int[] arr = new int[n];
 		
 		st = new StringTokenizer(br.readLine());
 		
 		for (int i = 0; i < n; i++) {
-			input[i] = Integer.parseInt(st.nextToken());
+			arr[i] = Integer.parseInt(st.nextToken());
 		}
 		
 		int min = Integer.MAX_VALUE;
 		int max = Integer.MIN_VALUE;
 		
 		for (int i = 0; i < n; i++) {
-			if (input[i] < min) {
-				min = input[i];
+			if (arr[i] < min) {
+				min = arr[i];
 			}
-			if (input[i] > max) {
-				max = input[i];
+			if (arr[i] > max) {
+				max = arr[i];
 			}
 		}
 		
