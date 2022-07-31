@@ -11,7 +11,6 @@ public class Main_S4_4949_균형잡힌세상 {
 	public static void main(String[] args) throws Exception {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
 		
 		while (true) {
 			String s = br.readLine();
