@@ -28,11 +28,10 @@ public class Main_G4_17298_오큰수 {
 		}
 
 		while (!input.isEmpty()) {
-<<<<<<< HEAD
-			
 			x = input.pop();
 
 			while (true) {
+				
 				if (stack.isEmpty()) {
 					stack.push(x);
 					answer.push(-1);
@@ -46,23 +45,6 @@ public class Main_G4_17298_오큰수 {
 				}
 			}
 			
-=======
-			x = input.pop();
-
-			while (true) {
-				if (stack.isEmpty()) {
-					stack.push(x);
-					answer.push(-1);
-					break;
-				} else if (x < stack.peek()) {
-					answer.push(stack.peek());
-					stack.push(x);
-					break;
-				} else {
-					stack.pop();
-				}
-			}
->>>>>>> branch 'main' of https://github.com/96hsjeong/Algorithm-Java
 		}
 
 		StringBuilder sb = new StringBuilder();
