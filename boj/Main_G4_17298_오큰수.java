@@ -28,6 +28,7 @@ public class Main_G4_17298_오큰수 {
 		}
 
 		while (!input.isEmpty()) {
+			
 			x = input.pop();
 
 			while (true) {
@@ -43,6 +44,7 @@ public class Main_G4_17298_오큰수 {
 					stack.pop();
 				}
 			}
+			
 		}
 
 		StringBuilder sb = new StringBuilder();
