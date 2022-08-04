@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Solution_Lv2_카페 {
+public class Solution_Lv2_카펫 {
 
 	public static void main(String[] args) {
 
