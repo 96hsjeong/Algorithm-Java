@@ -50,8 +50,6 @@ public class Main_BK_1661_미로탈출로봇 {
 			}
 		}
 
-		min = Integer.MAX_VALUE;
-
 		bfs(startX, startY);
 
 		System.out.println(min);
@@ -76,7 +74,8 @@ public class Main_BK_1661_미로탈출로봇 {
 
 				if (nx >= 1 && nx <= N && ny >= 1 && ny <= M && map[nx][ny] == '0') {
 					if (nx == endX && ny == endY) {
-						min = Math.min(min, nt);
+						min = nt;
+						return;
 					}
 					q.offer(new Pair(nx, ny, nt));
 					map[nx][ny] = '1';
